@@ -1,0 +1,73 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4rem;
+    /**color:lightslategray;*/
+    color: black;
+
+}
+body{
+    background: rgb(222, 57, 105);
+        background: linear-gradient(90deg, rgba(222, 57, 105, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    }
+    
+    #container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        width: 400px;
+        height: 650px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: inset 0 0 60px whitesmoke,
+            inset 20px 0 80px  rgb(222, 57, 105),
+            inset -20px 0 80px #0ff,
+            inset 20px 0 300px  rgb(222, 57, 105),
+            inset -20px 0 300px #0ff,
+            0 0 50px #fff,
+            -10px 0 80px  rgb(222, 57, 105),
+            10px 0 80px #0ff;;
+    }
+    .text{
+        border-radius: 5px;
+        width: 350px;
+        height: 30px;
+        border: none;
+    }
+    .text:hover{
+        border: 1px solid rgb(222, 57, 105);
+    }
+
+
+   #country{
+       border: none;
+       height:30px ;
+       border-radius: 5px;
+   }
+   #country:hover{
+        border: 1px solid rgb(222, 57, 105);
+
+   }
+   textarea{
+       border: none;
+       border-radius: 5px;
+       resize: none;
+       
+   }
+   textarea:hover{
+    border: 1px solid rgb(222, 57, 105);
+   }
+   
+   .btn{
+       width: 100px;
+       height: 30px;
+       border: none;
+       border-radius: 5px;
+   }
+   .btn:hover{
+       color: white;
+       background-color: rgb(222, 57, 105);
+       transition: 2s;
+   }
+ 
